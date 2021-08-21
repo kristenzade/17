@@ -17,16 +17,24 @@ In these models, loan risks are assigned:
 
 - The first analysis oversamples the data using RanomOverSample and Smote to predict credit risk:
   - Balaned Accuracy Score: 65%
-  - ![over](https://user-images.githubusercontent.com/79612565/126854076-19ea1df7-f57d-419c-b951-c54c0cdb7e47.png)
+ 
+ 
+        ![over](https://user-images.githubusercontent.com/80402142/130335826-7974977f-6452-4683-93b1-582f7439f7bc.png)
+
 
 
 - The second analysis undersamples the data using SMOTEENN to see if this reduces bias from analysis 1
     - Balanced Accuracy Score: 64%
-    - ![SMOTE](https://user-images.githubusercontent.com/79612565/126854068-a714ad1b-dde3-4a0a-8069-b8631ee10410.png)
+    
+    
+            ![SMOTE](https://user-images.githubusercontent.com/80402142/130335831-c8e6ea7c-ae96-4c4a-b384-de38fa922936.png)
+
 
 - Finally, the two models are compared to evaluate the performance and determine which model is most accurate
     - Accuracy Score: 55%
-    - ![d_2_cluster](https://user-images.githubusercontent.com/79612565/126854064-9595e786-16ea-4634-814e-37718c8dc1d8.png)
+    
+          ![d_2_cluster](https://user-images.githubusercontent.com/80402142/130335833-0b10e2cf-07f4-4af8-895f-1151ba39e24e.png)
+
 
 ## Resources
 
